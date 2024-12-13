@@ -2,12 +2,12 @@ package Entity;
 
 public class Supplier {
 
-    private String supplierID;
+    private int supplierID;
     private String supplierName;
     private String contactInfo;
     private String address;
 
-    public Supplier(String supplierID, String supplierName, String contactInfo, String address) {
+    public Supplier(int supplierID, String supplierName, String contactInfo, String address) {
 
         this.supplierID = supplierID;
         this.supplierName = supplierName;
@@ -22,7 +22,7 @@ public class Supplier {
         this.address = address;
     }
 
-    public String getSupplierID() {
+    public int getSupplierID() {
         return supplierID;
     }
 
@@ -38,7 +38,7 @@ public class Supplier {
         return address;
     }
 
-    public void setSupplierID(String supplierID) {
+    public void setSupplierID(int supplierID) {
         this.supplierID = supplierID;
     }
 
